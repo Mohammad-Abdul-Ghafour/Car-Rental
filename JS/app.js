@@ -60,7 +60,7 @@ Cars.prototype.render = function () {
     tdEl12.appendChild(img1)
     img1.id = `${carArray.length}`
     img1.className = 'remove'
-    img1.addEventListener('click',removeHandler)
+    img1.addEventListener('click', removeHandler)
 
 }
 loadFromLocalStorage()
@@ -72,10 +72,9 @@ function removeHandler(event) {
     event.preventDefault()
     let removeClass = event.target.id
     console.log(removeClass)
-    carArray.splice(removeClass-1,1)
+    carArray.splice(removeClass - 1, 1)
 
     saveToLocalStorage()
-    // loadFromLocalStorage()
     location.reload()
 
 }

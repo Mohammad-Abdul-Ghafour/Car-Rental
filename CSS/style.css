@@ -52,6 +52,8 @@ width: 20%;
     border-radius: 5px;
     font-size: 20px;
     color: rgb(230, 46, 45);
+    font-family: 'Fredoka One', cursive;
+    
 }
 #theForm input{
     width: 250px;
@@ -73,6 +75,8 @@ width: 20%;
 #submit{
     background-color: rgb(230, 46, 45);
     color: white;
+    font-family: 'Fredoka One', cursive;
+
 }
 #theForm fieldset{
     padding-top: 50px;
