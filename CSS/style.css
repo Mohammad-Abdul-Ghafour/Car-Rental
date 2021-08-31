@@ -1,0 +1,128 @@
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(../IMG/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+main{
+    min-height: 650px;
+}
+header{
+    background-color: rgb(36, 36, 36);
+    color: rgb(230, 46, 45);
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+#hearerContainer{
+    display: flex;
+    height: 100px;
+    line-height: 100px;
+}
+
+#hearerContainer img{
+    width: 150px;
+    margin-left: 100px;
+}
+
+
+#hearerContainer h1{
+    width: 90%;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+#formContainer{
+width: 20%;
+}
+#theForm{
+    background-color: rgb(172, 188, 201);
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    color: rgb(230, 46, 45);
+}
+#theForm input{
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid rgb(131, 128, 128);
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+#theForm select{
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid rgb(131, 128, 128);
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+#submit{
+    background-color: rgb(230, 46, 45);
+    color: white;
+}
+#theForm fieldset{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+#tableContainer img{
+    width: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#tableContainer{
+    background-color: rgb(172, 188, 201);
+width: 50%;
+margin-left: 100px;
+border-radius: 5px;
+
+}
+
+#theTable{
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+margin-bottom: 50px;
+border: 1px solid rgb(36, 36, 36);
+}
+
+th , td{
+border: 2px solid rgb(36, 36, 36);
+/* line-height: 30px; */
+height: 30px;
+background-color: rgb(193, 220, 241);
+width: 33%;
+text-align: center;
+font-family: 'Fredoka One', cursive;
+vertical-align: middle;
+
+}
+
+
+footer{
+    text-align: center;
+    height: 50px;
+    font-size: 15px;
+    color: rgb(230, 46, 45);
+    background-color: rgb(36, 36, 36);
+    line-height: 50px;
+    font-family: 'Fredoka One', cursive;
+
+}
