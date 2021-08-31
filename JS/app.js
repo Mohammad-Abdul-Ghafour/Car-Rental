@@ -58,10 +58,27 @@ Cars.prototype.render = function () {
     let img1 = document.createElement('img')
     img1.src = `IMG/images.png`
     tdEl12.appendChild(img1)
+    img1.id = `${carArray.length}`
+    img1.className = 'remove'
+    img1.addEventListener('click',removeHandler)
 
 }
 loadFromLocalStorage()
 
+
+
+
+function removeHandler(event) {
+    event.preventDefault()
+    let removeClass = event.target.id
+    console.log(removeClass)
+    carArray.splice(removeClass-1,1)
+
+    saveToLocalStorage()
+    // loadFromLocalStorage()
+    location.reload()
+
+}
 
 theForm.addEventListener('submit', submitHandler)
 function submitHandler(event) {
